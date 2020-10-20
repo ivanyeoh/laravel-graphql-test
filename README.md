@@ -39,7 +39,7 @@ You can write queries like this:
 $this->query('account', ['id' => 123], ['id']);
 ```
 
-Note that this function returns an `\Illuminate\Foundation\Testing\TestResponse`. Therefore you might use any Laravel testing methods. For example:
+Note that this function returns an `\Illuminate\Foundation\TestResponse`. Therefore you might use any Laravel testing methods. For example:
 
 ```php
 $this->query('account', ['id' => 123], ['id'])

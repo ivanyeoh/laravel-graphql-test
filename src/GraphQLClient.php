@@ -41,7 +41,7 @@ class GraphQLClient
     }
 
     /**
-     * @return \Illuminate\Foundation\Testing\TestResponse
+     * @return \Illuminate\Foundation\TestResponse
      */
     public function getData()
     {
@@ -56,5 +56,4 @@ class GraphQLClient
     {
         return $this->builder->getGql();
     }
-
 }

@@ -19,7 +19,7 @@ trait TestGraphQL
      * @param  string  $object  GraphQL query name
      * @param  array|null  $arguments  Specifies arguments send to the server. When selection is null it will be used as a selection set instead.
      * @param  array|null  $selection  Specifies Selection set send to the server.
-     * @return GraphQLClient|\Illuminate\Foundation\Testing\TestResponse
+     * @return GraphQLClient|\Illuminate\Foundation\TestResponse
      */
     public function query(string $object, $arguments = null, $selection = null)
     {
@@ -40,7 +40,7 @@ trait TestGraphQL
      * @param  string  $object  GraphQL query name
      * @param  array|null  $arguments  Specifies arguments send to the server. When selection is null it will be used as a selection set instead.
      * @param  array|null  $selection  Specifies Selection set send to the server.
-     * @return GraphQLClient|\Illuminate\Foundation\Testing\TestResponse
+     * @return GraphQLClient|\Illuminate\Foundation\TestResponse
      */
     public function mutation(string $object, $arguments = null, $selection = null)
     {
